@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import yaml
 from sklearn.model_selection import train_test_split
+from dvclive import Live
 
 log_dir = 'logs'
 os.makedirs(log_dir, exist_ok = True)

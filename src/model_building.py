@@ -5,6 +5,7 @@ import logging
 import pickle
 import os
 import yaml
+from dvclive import Live
 
 log_dr = "logs"
 os.makedirs(log_dr, exist_ok= True)

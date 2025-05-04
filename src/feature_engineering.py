@@ -4,7 +4,8 @@ import yaml
 import os
 import logging
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import train_test_split    
+from sklearn.model_selection import train_test_split
+from dvclive import Live
 
 log_dir = "logs"
 os.makedirs(log_dir, exist_ok= True)
