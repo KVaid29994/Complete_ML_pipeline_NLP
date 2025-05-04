@@ -1,0 +1,9 @@
+- login aws console
+- create IAM user
+- create s3 bucket
+- pip install dvc[s3]
+- pip install awscli
+- "aws configure" - on the terminal
+- dvc remote add -d dvcstore s3://bucketname
+- dvc commit- push the exp outcome that you want to keep
+- finally git add commit
